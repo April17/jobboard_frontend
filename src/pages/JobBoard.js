@@ -40,13 +40,9 @@ class JobBoard extends Component {
                     </Grid>
                     
                     <Grid textAlign='center' verticalAlign='middle' stretched padded>
-                        <Grid.Column textAlign="center" className='centered'>
-                            <Segment textAlign='center' size='massive' className='centered transparent'>
-                                <Dimmer active inverted>
-                                    <Loader inverted>Loading ...</Loader>
-                                </Dimmer>
-                            </Segment>
-                        </Grid.Column>
+                        <Dimmer active inverted>
+                            <Loader inverted>Loading ...</Loader>
+                        </Dimmer>
                     </Grid>
                 </div>
             )

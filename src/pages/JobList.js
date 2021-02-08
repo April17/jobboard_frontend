@@ -52,9 +52,9 @@ class JobList extends Component {
                     </Grid>
                     
                     <Grid textAlign='left' verticalAlign='middle' stretched padded>
-                            <Dimmer active inverted>
-                                <Loader inverted>Loading ...</Loader>
-                            </Dimmer>
+                        <Dimmer active inverted>
+                            <Loader inverted>Loading ...</Loader>
+                        </Dimmer>
                     </Grid>
                 </div>
             )
